@@ -21,7 +21,9 @@
     <title>Marca de Sucesso</title>
 
     <!-- Bootstrap Core CSS -->
+
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
 
     <!-- Theme CSS -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
@@ -30,6 +32,8 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <!-- Custom-->
+     <link href="style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,14 +51,14 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                  <span class="sr-only">Menu de navegação</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand color:" href="index.php">Marca de Sucesso</a>
+                <a class="navbar-brand color:" href="index.php"><img src="img/Logo.png"  width="200" class="img-responsive"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -63,15 +67,12 @@
                     <li>
                         <a href="index.php">Inicio</a>
                     </li>
+                   
+            <!-- <li>            <a href="about.html">Sobre</a>           </li> -->
                     <li>
-                        <a href="about.html">Sobre</a>
+                        <a href="post.html">Baixar E-book</a>
                     </li>
-                    <li>
-                        <a href="post.html">E-book</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contato</a>
-                    </li>
+                  <!--  <li>                  <a href="contact.html">Contato</a>             </li>   -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -98,31 +99,27 @@
 	</div>
 	
  <!-- Form --> 
-<div style="#page-wrap { 
-  width: 600px; 
-  margin: 40px auto; 
-  position: relative; 
-}
-
-#sidebar { 
-  width: 190px; 
-  position: fixed; 
-  margin-left: 410px; 
-}
-
-position: fixed;
+<div class="nova" >
+   
+   
+   <iframe src="form.html" style="position: fixed;
+     position: fixed;
     bottom: 0;
     right: 0;
-    width: 300px; " 
-
->
-
- <iframe src="form.html" style="position: fixed;
+    position: fixed;
     bottom: 0;
+    overflow: hidden!important;
+    margin-right: 0;
     right: 0;
-    width: 350px;
-	height: 500px;
-	" frameborder="0"></iframe> 
+    /* background: gray; */
+    margin-right: 15px;
+    width: 250px;
+    border-radius: 15px;
+    height: 394px;
+    box-shadow: -3px 6px 11px rgba(0, 0, 0, 0.18);
+    margin-bottom: 240px;"   
+    	
+    frameborder="0"></iframe> 
 
 </div>
 	

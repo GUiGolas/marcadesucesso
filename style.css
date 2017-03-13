@@ -1,0 +1,119 @@
+/*Custom css*/
+
+/*Tipografia*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body,h1,h2,h3,h4,p{
+
+font-family: 'Lato', sans-serif;
+
+
+}
+
+
+.intro-header .page-heading .subheading, .intro-header .post-heading .subheading, .intro-header .site-heading .subheading, .navbar-custom, h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+
+h2{
+	color: #00B85A;
+}
+
+a, body {
+    color: #00b85a;
+    transition: 0.4s;
+}
+a:hover , body{
+	color:#026d36;
+}
+
+p{
+	color: black!important;
+}
+
+p a {
+    text-decoration: none !important;
+}
+/* -------------- Post tipo ------------------------ */
+
+.post-preview>a:focus, .post-preview>a:hover {
+    text-decoration: none;
+    color: #ea6237 !important;
+}
+
+.post-preview>.post-meta>a:hover {
+    color: #ea6237  !important;
+    text-decoration: none;
+}
+
+/* --------- post tipo FIM-----------------*/
+
+/* BTN PAGE */
+.pager li>a:hover {
+    color: #fff;
+    background-color: #00b85a;
+    border: 1px solid #00b85a;
+}
+
+/*--- BTN PAGE  FIM */
+
+
+@media only screen and (min-width: 1170px){
+					.navbar-custom.is-fixed {
+					position: fixed;
+					top: -61px;
+					background-color: rgba(255,255,255,.0)!important;
+					border-bottom: 0px solid #f2f2f2 !important;
+					-webkit-transition: -webkit-transform .3s;
+					-moz-transition: -moz-transform .3s;
+					transition: transform .3s;
+										}
+}
+
+/*------------- btn page fim */
+@media only screen and (min-width: 1170px){
+.navbar-custom.is-fixed .nav li a {
+    color: white;
+	}
+}
+
+
+/*Form*/
+
+.nova{
+	box-shadow: -10px 10px 5px #888888;
+}
+
+.btn-warning{
+	    width: 100%;
+    background: #FF5722 !important;
+   
+}
+
+.btn-warning:hover{
+	    width: 100%;
+    background: red#7F080A !important;
+   
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+}
+
+.form-control{
+	
+	height: 43px;
+}
+
+
+
+
+
