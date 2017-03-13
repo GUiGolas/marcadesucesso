@@ -18,7 +18,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog</title>
+    <title>Marca de Sucesso</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,32 +42,35 @@
 
 <body>
 
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/favicon.ico" />
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                 <span class="sr-only">Menu de navegação</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.php">Start Bootstrap</a>
+                <a class="navbar-brand color:" href="index.php">Marca de Sucesso</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.php">Home</a>
+                        <a href="index.php">Inicio</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html">Sobre</a>
                     </li>
                     <li>
-                        <a href="post.html">Sample Post</a>
+                        <a href="post.html">E-book</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -78,20 +81,50 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+    <header class="intro-header" style="background-image: url('img/home-bg-new.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>Clean Blog</h1>
+                        <h1>Marca de Sucesso</h1>
                         <hr class="small">
-                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                        <span class="subheading">Frase de Efeito</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
+	</div>
+	
+ <!-- Form --> 
+<div style="#page-wrap { 
+  width: 600px; 
+  margin: 40px auto; 
+  position: relative; 
+}
+
+#sidebar { 
+  width: 190px; 
+  position: fixed; 
+  margin-left: 410px; 
+}
+
+position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px; " 
+
+>
+
+ <iframe src="form.html" style="position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+	height: 500px;
+	" frameborder="0"></iframe> 
+
+</div>
 	
  <!-- Post Content -->
     <article>
