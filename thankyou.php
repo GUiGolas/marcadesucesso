@@ -1,6 +1,8 @@
 <html lang="en">
 
 <head>
+    
+    
 
     <!-- Bootstrap Core CSS -->
     <!--     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  -->
@@ -23,7 +25,7 @@
 
 	<!-- Google Analytics -->
 
-		<script>
+	<script>
 			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -37,11 +39,18 @@
 </head>
 
 
-<div class="jumbotron text-xs-center">
-  <meta http-equiv="refresh" content="3;url=../download.php">
-  <h1 class="display-3">Obrigado!</h1>
-  <p class="lead"><strong>Seu download começará em breve.</strong>  <a href="../download.php">Clique aqui</a> caso não inicie em 3 segundos.</p>
-  <hr>
+
+
+<div class=" container jumbotron text-xs-center" style="text-align: center;
+    margin-top: 190px; margin-left:20px; margin-right:20px; ">
+  <meta http-equiv="refresh" content="3;url=../download.php"> 
+  <img src="../img/logo-grr.png" width="300" class="img-responsive" style="margin: auto;">
+  <h1 class="display-3 bounce" style="font-size: 80px;
+    color: black;
+    margin: 20px 0px 30px;">Obrigado!</h1>
+    
+  <p class="lead" style="font-size: 24px;"><strong>Seu download começará em breve.</strong><br/>  <a href="../download.php">Clique aqui</a> caso não inicie em 3 segundos.</p>
+
   <p class="lead">
     <a class="btn btn-primary btn-sm" href="../index.php" role="button">Página inicial</a>
   </p>
