@@ -11,3 +11,12 @@
 
 </script>
 <!-- End Google Analytics -->
+
+
+Implementação PHPopcional
+
+    Use o código acima para criar um arquivo chamado "analyticstracking.php". Inclua esse arquivo em cada página do modelo PHP.
+    Adicione a linha a seguir a cada página do modelo imediatamente depois da tag de abertura <body>:
+
+<?php include_once("analyticstracking.php") ?>
+

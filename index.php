@@ -41,9 +41,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-
-		<!-- Google Analytics -->
+	<!-- Google Analytics -->
 
 		<script>
 			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -56,8 +54,8 @@
 
 		</script>
 		<!-- End Google Analytics -->
-
-	</head>
+		
+</head>
 
 <body>
 
@@ -80,12 +78,12 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.php">Inicio</a>
+                        <a href="index.php">Blog</a>
                     </li>
                    
             <!-- <li>            <a href="about.html">Sobre</a>           </li> -->
                     <li>
-                        <a href="contact.html">Baixar E-book</a>
+                        <a href="post.html">Baixar E-book</a>
                     </li>
                   <!--  <li>                  <a href="contact.html">Contato</a>             </li>   -->
                 </ul>
@@ -102,9 +100,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>Marca de Sucesso</h1>
+                        <h1>Blog</h1>
                         <hr class="small">
-                        <span class="subheading">Frase de Efeito</span>
+                        <span class="subheading">Marca de sucesso</span>
                     </div>
                 </div>
             </div>
@@ -113,7 +111,59 @@
 
 	</div>
 	
- <!-- Form --> 
+ 
+	
+ <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                   <h3>Identidade Visual</h3>
+                  <p> <strong>O que é (elementos que compõem)</strong></p>
+                    <img src="img/id-visual-blog.JPG"   class="img-responsive" >
+                    <p>É muito comum que pequenos/médios empresários não se atentem a um detalhe muito importante quando estão começando a construir a sua empresa: A criação da identidade visual. Pense que a identidade visual de uma marca, é o rosto da  empresa, e deve fazer parte das principais tarefas do empreendedor construí-la.
+
+						
+
+					</p>
+
+                    <p>Mesmo que sua empresa já possua um logotipo, este já é um bom começo, você ainda não possui uma identidade visual. Mais que um logo, a identidade começa na cultura organizacional e se transfere às atitudes, ao atendimento, às cores, tipografia, imagens, embalagens e todas as aplicações do dia a dia quando então impactará todos que com ela tiverem contato. Veja a importância que a identidade visual tem para a sua empresa:</p>
+                    
+                    <p> <strong>A importância da identidade visual</strong></p>
+
+                    <p>Para que seus clientes possam se conectar com a sua marca de uma forma clara, é muito importante que sua empresa consiga transmitir o seu propósito através de sua identidade visual. Cada parte da identidade visual citada anteriormente, tem como objetivo conectar e mostrar a todos que conheçam a sua marca, os valores da sua empresa.
+
+					</p>
+
+                    <p>Se o propósito de sua empresa é de transformar a vida de 1 milhão de pessoas, deixe sua marca falar isso para o mundo. Quando a sua marca conseguir transmitir sua mensagem, tenha certeza que sua empresa começará a se destacar no mercado.</p>
+                    
+                     <p> <strong>Quais elementos fazem parte ( cultura e imagem)</strong></p>
+
+
+
+                    <p>Toda empresa tem uma história que deve ser contada em uma narrativa única que representa de forma sucinta o seu propósito, a declaração da missão da empresa é um dos principais fatores de sua cultura, é ela que representa o propósito de toda a empresa existir.
+
+					<p>Os valores de uma empresa definem a forma que a mesma é para os seus funcionários, caso este valores sejam colocados em prática. </p>
+
+					<p>O seu cliente também deve conhecer os valores de sua empresa para que ele possa se conectar a ela de uma forma especial, imagine que sempre que um cliente se deparar com a sua marca, ele sentirá o que ela representa, existirá um elo de ligação entre os dois. </p>
+
+					</p>
+                    
+                    <p>Criando uma boa identidade visual para a sua empresa, você conseguirá alcançar este objetivo e sua marca nunca será esquecida pelos seus clientes.</p>
+                     
+                </div>
+            </div>
+			
+			<!-- Pager -->
+			<ul class="pager">
+				<li class="next">
+					<a href="postlist.html">Post Anterior &rarr;</a>
+ 				</li>
+			</ul>
+		</div>
+    </article>
+	
+	<!-- Form --> 
 <div class="nova" >
    
    
@@ -129,67 +179,14 @@
     /* background: gray; */
     margin-right: 15px;
     width: 250px;
-    border-radius: 15px;
-    height: 394px;
-    box-shadow: -3px 6px 11px rgba(0, 0, 0, 0.18);
-    margin-bottom: 70px;
-	height:57%;
-	"   
+    
+    height: 447px;
+    
+    margin-bottom: 240px;"   
     	
-    frameborder="0" scrolling="no"></iframe> 
+    frameborder="0" scrolling=no></iframe> 
 
 </div>
-	
- <!-- Post Content -->
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-
-                    <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-
-                    <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-
-                    <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-                    <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-                    <h2 class="section-heading">The Final Frontier</h2>
-
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-                    <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-                    <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-                    <h2 class="section-heading">Reaching for the Stars</h2>
-
-                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-                    <a href="#">
-                        <img class="img-responsive" src="img/post-sample-image.jpg" alt="">
-                    </a>
-                    <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-                    <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
-                </div>
-            </div>
-			
-			<!-- Pager -->
-			<ul class="pager">
-				<li class="next">
-					<a href="postlist.html">Older Posts &rarr;</a>
- 				</li>
-			</ul>
-		</div>
-    </article>
 	
     <hr>
 
@@ -224,7 +221,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    <p class="copyright text-muted">Copyright &copy; <b style="color:#00B85A">Marca</b>de<b style="color:#00B85A">Sucesso</b</p>
                 </div>
             </div>
         </div>
