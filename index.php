@@ -64,13 +64,7 @@
                         <a href="index.php">Inicio</a>
                     </li>
                     <li>
-                        <a href="about.html">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="post.html">E-book</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contato</a>
+                        <a href="contact.html">E-book</a>
                     </li>
                 </ul>
             </div>

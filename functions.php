@@ -32,19 +32,19 @@ function validate_ip($ip)
 }
 
 function add() {	
-	if(empty($_POST['name']) || empty($_POST['email']) 
-		|| empty($_POST['phone']) || //	empty($_POST['message'])   ||
-		!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
+	if(empty($_POST['lead']['name']) || empty($_POST['lead']['email']) 
+		|| empty($_POST['lead']['phone']) || //	empty($_POST['message'])   ||
+		!filter_var($_POST['lead']['email'],FILTER_VALIDATE_EMAIL)){
 			echo "No arguments Provided!";
-			echo "POST= " . $_POST;
 			return false;
 	}
 	
+	$lead = $_POST['lead'];
     $today = date_create('now', new DateTimeZone('America/Sao_Paulo'));
-	$lead['created'] = $_POST['created'] = $today->format("Y-m-d H:i:s");
-    $lead['name'] = $_POST['name'];
-	$lead['email'] = $_POST['email'];
-	$lead['phone'] = $_POST['phone'];
+	$lead['created'] = $lead['created'] = $today->format("Y-m-d H:i:s");
+    $lead['name'] = $lead['name'];
+	$lead['email'] = $lead['email'];
+	$lead['phone'] = $lead['phone'];
 	
 	$ip = get_ip_address();
 	if($ip == true){
