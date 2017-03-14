@@ -1,0 +1,13 @@
+CREATE TABLE leads (
+  id int(11) NOT NULL,
+  name varchar(255) NOT NULL,
+  phone int(13) NOT NULL,
+  created datetime NOT NULL,
+  ip_addr text,
+);
+
+ALTER TABLE leads
+  ADD PRIMARY KEY (id);
+  
+ALTER TABLE leads
+  MODIFY id int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;

@@ -70,7 +70,11 @@
                    
             <!-- <li>            <a href="about.html">Sobre</a>           </li> -->
                     <li>
+<<<<<<< HEAD
                         <a href="post.html">Baixar E-book</a>
+=======
+                        <a href="contact.html">E-book</a>
+>>>>>>> add-thankyou-page
                     </li>
                   <!--  <li>                  <a href="contact.html">Contato</a>             </li>   -->
                 </ul>
