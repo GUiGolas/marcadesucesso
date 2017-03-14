@@ -90,13 +90,14 @@ p a {
 
 .btn-warning{
 	    width: 100%;
-    background: #FF5722 !important;
+    background:#2196F3 !important;
    
 }
 
 .btn-warning:hover{
 	    width: 100%;
-    background: red#7F080A !important;
+    background:#145b94 !important
+	
    
 }
 label {
@@ -113,7 +114,19 @@ label {
 	height: 43px;
 }
 
+.alinhamento-logo{
+	padding-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.cinza-header{
+	background: #f7f7f7;
+}
 
-
+.land-h1{
+	    font-size: 44px;
+	color:#00b85a;
+	    padding-bottom: 25px;
+}
 
 
