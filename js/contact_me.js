@@ -32,7 +32,7 @@ $(function() {
                 cache: false,
                 success: function() {
 					
-					top.location = './thankyou.php/';
+				top.location = './thankyou.php/';
                     // Success message
 					/*
                     $('#success').html("<div class='alert alert-success'>");

@@ -3,10 +3,10 @@
 <head>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  -->
 
     <!-- Theme CSS -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!--     <link href="css/clean-blog.min.css" rel="stylesheet"> -->
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -43,15 +43,12 @@
   <p class="lead"><strong>Seu download começará em breve.</strong>  <a href="../download.php">Clique aqui</a> caso não inicie em 3 segundos.</p>
   <hr>
   <p class="lead">
-    <a class="btn btn-primary btn-sm" href="http://localhost/git-master/index.php" role="button">Página inicial</a>
+    <a class="btn btn-primary btn-sm" href="../index.php" role="button">Página inicial</a>
   </p>
 </div>
-
-
-
 				
 <!-- jQuery -->
-<script src="js/clean-blog.min.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

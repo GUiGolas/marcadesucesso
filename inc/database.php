@@ -42,6 +42,8 @@ function save($table = null, $data = null) {
   
   $sql = "INSERT INTO " . $table . "($columns)" . " VALUES " . "($values);";
 
+  echo "SQL=" . $sql;
+
   try {
     $database->query($sql);
 

@@ -39,6 +39,8 @@ function add() {
 			return false;
 	}
 	
+	echo "addd 2";
+	
 	$lead = $_POST['lead'];
     $today = date_create('now', new DateTimeZone('America/Sao_Paulo'));
 	$lead['created'] = $lead['created'] = $today->format("Y-m-d H:i:s");

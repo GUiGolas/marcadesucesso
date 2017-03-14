@@ -6,5 +6,7 @@
 		return false;
 	}
 
+	echo "adding!";
+
 	add();
 ?>

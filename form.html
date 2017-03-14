@@ -43,23 +43,23 @@
 	<!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
 	<form name="sentMessage" id="contactForm" novalidate>
 		<div class="row control-group">
-			<div class=" col-xs-12 ">
+			<div class="form-group col-xs-12 ">
 				<label>Nome</label>
-				 <input type="text" name="required" class="form-control" placeholder="" id="name" required data-validation-required-message="Please enter your name.">
+				 <input type="text" class="form-control" placeholder="" id="name" required data-validation-required-message="Informe seu nome.">
 				<p class="help-block text-danger"></p>
 			</div>
 		</div>
-		<div class="row control-group">
+		<div class="form-group row control-group">
 			<div class="col-xs-12 ">
 				<label>Email</label>
-				<input type="email" class="form-control" placeholder="" id="email" required data-validation-required-message="Please enter your email address.">
+				<input type="email" class="form-control" placeholder="" id="email" required data-validation-required-message="Insira um e-mail válido">
 				<p class="help-block text-danger"></p>
 			</div>
 		</div>
-		<div class="row control-group">
+		<div class="form-group row control-group">
 			 <div class=" col-xs-12 ">
 				<label>Telefone</label>
-				<input type="tel" class="form-control" placeholder="" id="phone" required data-validation-required-message="Please enter your phone number.">
+				<input type="tel" class="form-control" placeholder="" id="phone" required data-validation-required-message="Informe seu telefone.">
 				<p class="help-block text-danger"></p>
 			</div>
 		</div>
@@ -76,7 +76,7 @@
 
 				
 <!-- jQuery -->
-<script src="js/clean-blog.min.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

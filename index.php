@@ -71,7 +71,7 @@
                  <span class="sr-only">Menu de navegação</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand color:" href="index.php"><img src="img/Logo.png"  width="200" class="img-responsive"></a>
+                <a class="navbar-brand color:" href="index.php"><img src="img/logo.png"  width="200" class="img-responsive"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -120,7 +120,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                    <h3>Identidade Visual</h3>
                   <p> <strong>O que é (elementos que compõem)</strong></p>
-                    <img src="img/id-visual-blog.JPG"   class="img-responsive" >
+                    <img src="img/id-visual-blog.jpg"   class="img-responsive" >
                     <p>É muito comum que pequenos/médios empresários não se atentem a um detalhe muito importante quando estão começando a construir a sua empresa: A criação da identidade visual. Pense que a identidade visual de uma marca, é o rosto da  empresa, e deve fazer parte das principais tarefas do empreendedor construí-la.
 
 						
