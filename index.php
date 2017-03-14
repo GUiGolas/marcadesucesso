@@ -157,7 +157,7 @@
 			<!-- Pager -->
 			<ul class="pager">
 				<li class="next">
-					<a href="postlist.html">Post Anterior &rarr;</a>
+					<a href="#">Post Anterior &rarr;</a>
  				</li>
 			</ul>
 		</div>
