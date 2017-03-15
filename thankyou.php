@@ -43,7 +43,7 @@
 
 
 <div class=" container jumbotron text-xs-center" style="text-align: center;
-    margin-top: 190px; margin-left:20px; margin-right:20px; ">
+  margin-top: 190px; margin-left:20px; margin-right:20px; ">
   <meta http-equiv="refresh" content="3;url=../download.php"> 
   <img src="../img/logo-grr.png" width="300" class="img-responsive" style="margin: auto;">
   <h1 class="display-3 bounce" style="font-size: 80px;
