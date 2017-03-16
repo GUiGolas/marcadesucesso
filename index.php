@@ -164,7 +164,7 @@
     </article>
 	
 	<!-- Form --> 
-<div class="nova" >
+<div class="nova hidden-xs hidden-sm" >
    
    
    <iframe src="form.html" style="position: fixed;
@@ -173,6 +173,8 @@
     right: 0;
     position: fixed;
     bottom: 0;
+    	
+    
     overflow: hidden!important;
     margin-right: 0;
     right: 0;
@@ -183,6 +185,24 @@
     height: 447px;
     
     margin-bottom: 240px;"   
+    	
+    frameborder="0" scrolling=no></iframe> 
+
+</div>
+
+<div class=" row hidden-md hidden-lg" >
+   
+   
+   <iframe src="form.html" style="
+    
+    width: 250px;
+    
+    height: 447px;
+    	margin-left: 20%;
+    margin-top: 30px;
+    
+    
+    "   
     	
     frameborder="0" scrolling=no></iframe> 
 
